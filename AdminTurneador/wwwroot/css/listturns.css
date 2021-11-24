@@ -1,0 +1,56 @@
+﻿
+h3{
+    text-align: center;
+    margin-top: 140px;
+}
+table {
+    margin: 40px auto;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+    table th {
+        width: 250px;
+        padding: 10px;
+    }
+
+    tr {
+        padding: 10px;
+    }
+
+    table tr, table th {
+        text-align: center;
+    }
+
+    table td {
+        padding: 10px;
+    }
+
+    table tr:nth-child(odd) {
+        background: rgb(219, 218, 218);
+    }
+
+
+    table thead tr:nth-child(1) {
+        background: black;
+        color: rgb(238, 236, 236);
+    }
+    table tbody tr:nth-child(1){
+        background: rgb(219, 218, 218);
+        color: black;
+    }
+
+#btnAccept, #btnDelete {
+    border: 1px solid black;
+    background: none;
+    margin: 15px 5px;
+}
+
+#btnAccept:hover{
+    background: green;
+    color: white;
+}
+#btnDelete:hover{
+    background: red;
+    color: white;
+}

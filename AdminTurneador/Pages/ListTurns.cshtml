@@ -1,0 +1,27 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "";
+}
+
+@section css{ 
+    <link href="~/css/listturns.css" rel="stylesheet" />
+} 
+
+<h3>Listado de turnos solicitados: </h3>
+<table>
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Asunto</th>
+            <th>Fecha</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="tBody"></tbody>
+</table>
+
+@section scripts{ 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="~/js/listTurns.js"></script>
+}

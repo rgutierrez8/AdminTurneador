@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section css{ 
+    <link href="~/css/indexStyle.css" rel="stylesheet" />
+}
+
+
+<div class="formContainerHTML">
+    <form class="formLog" id="formLog">
+        <div class="inputData">
+            <input type="text" name="user" id="inputUser" autocomplete="off">
+            <label>Usuario:</label>
+        </div>
+        <div class="inputData">
+            <input type="password" name="password" id="inputPass">
+            <label>Contraseña:</label>
+        </div>
+        <input type="submit" id="btnIngresar" class="btnLog" value="INGRESAR">
+    </form>
+</div>
+
+@section scripts{ 
+    <script src="~/js/index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+}
