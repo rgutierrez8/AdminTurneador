@@ -100,3 +100,8 @@ input[type="submit"] {
         color: white;
         transition: .5s;
     }
+
+footer, hr{
+    position: absolute;
+    top: 75%;
+}
